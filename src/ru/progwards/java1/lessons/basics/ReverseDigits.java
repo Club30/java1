@@ -8,7 +8,6 @@ public class ReverseDigits {
         int hundreds = number/100;
         int newNumber = units*100 + dozens*10 + hundreds;
         return newNumber;
-
     }
 }
 
