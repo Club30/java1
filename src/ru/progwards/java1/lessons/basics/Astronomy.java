@@ -34,10 +34,6 @@ public class Astronomy {
     static int addAsStrings(int n1, int n2) {
         return Integer.parseInt(Integer.toString(n1) + Integer.toString(n2));
     }
-
-    public static void main(String[] args) {
-        System.out.println(addAsStrings(1, 2));
-    }
 }
 
 
